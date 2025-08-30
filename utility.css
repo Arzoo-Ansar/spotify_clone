@@ -1,0 +1,81 @@
+/* img{
+    position:absolute
+} */
+.border{
+    /* border:2px solid red; */
+    margin:3px;
+    border-radius:10px;
+}
+ .flex{
+    display:flex;
+}
+.justify-center{
+    justify-content:center;
+}
+.items-center{
+    align-items:center;
+}
+img{
+    display:block;
+}
+.p-1{
+    padding:10px;
+}
+.footer{
+    font-size:16px;
+    display:flex;
+    gap:16px;
+    flex-wrap:wrap;
+    position:absolute;
+    bottom:0px;
+    z-index: 10;
+}
+.footer a{
+    color:grey;
+    text-decoration:none;
+    position : relative;
+    bottom:0;
+}
+.Library{
+    min-height:100vh;
+    position:relative;
+    overflow-y:auto;
+}
+.heading h3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav svg{
+    color:white;
+}
+
+/* Applies to entire site */
+body {
+  scrollbar-width: thin;           /* Firefox */
+  scrollbar-color: #444 #111;      /* Firefox */
+}
+
+/* WebKit-based browsers (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111;  /* Track background */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #444;  /* Scrollbar handle */
+  border-radius: 6px;
+  border: 2px solid #111;  /* Optional border around thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #666;
+}
+.songbutton {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:14px;
+}
